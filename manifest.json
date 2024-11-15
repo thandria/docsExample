@@ -1,0 +1,165 @@
+{
+  "source_base_path": "C:/Users/guita/source/documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Test.UnitTest1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Test.UnitTest1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_assignment.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_assignment.Canvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_assignment.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_assignment.Form1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_assignment.MyParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_assignment.MyParser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_assignment.MyTriangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_assignment.MyTriangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_assignment.MyWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_assignment.MyWrite.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_assignment.myCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_assignment.myCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "boose/BOOSE_assignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/BOOSE_assignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "boose/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "boose/toc.html"
+        },
+        ".json": {
+          "relative_path": "boose/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

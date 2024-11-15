@@ -1,0 +1,583 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: BOOSE_Test
+  name: BOOSE_Test
+  href: boose/BOOSE_Test.html
+  commentId: N:BOOSE_Test
+  fullName: BOOSE_Test
+  nameWithType: BOOSE_Test
+- uid: BOOSE_Test.UnitTest1
+  name: UnitTest1
+  href: boose/BOOSE_Test.UnitTest1.html
+  commentId: T:BOOSE_Test.UnitTest1
+  fullName: BOOSE_Test.UnitTest1
+  nameWithType: UnitTest1
+- uid: BOOSE_Test.UnitTest1.DrawTo_ShouldUpdatePenPosition
+  name: DrawTo_ShouldUpdatePenPosition()
+  href: boose/BOOSE_Test.UnitTest1.html#BOOSE_Test_UnitTest1_DrawTo_ShouldUpdatePenPosition
+  commentId: M:BOOSE_Test.UnitTest1.DrawTo_ShouldUpdatePenPosition
+  fullName: BOOSE_Test.UnitTest1.DrawTo_ShouldUpdatePenPosition()
+  nameWithType: UnitTest1.DrawTo_ShouldUpdatePenPosition()
+- uid: BOOSE_Test.UnitTest1.DrawTo_ShouldUpdatePenPosition*
+  name: DrawTo_ShouldUpdatePenPosition
+  href: boose/BOOSE_Test.UnitTest1.html#BOOSE_Test_UnitTest1_DrawTo_ShouldUpdatePenPosition_
+  commentId: Overload:BOOSE_Test.UnitTest1.DrawTo_ShouldUpdatePenPosition
+  isSpec: "True"
+  fullName: BOOSE_Test.UnitTest1.DrawTo_ShouldUpdatePenPosition
+  nameWithType: UnitTest1.DrawTo_ShouldUpdatePenPosition
+- uid: BOOSE_Test.UnitTest1.MoveTo_UpdatesValidPosition
+  name: MoveTo_UpdatesValidPosition()
+  href: boose/BOOSE_Test.UnitTest1.html#BOOSE_Test_UnitTest1_MoveTo_UpdatesValidPosition
+  commentId: M:BOOSE_Test.UnitTest1.MoveTo_UpdatesValidPosition
+  fullName: BOOSE_Test.UnitTest1.MoveTo_UpdatesValidPosition()
+  nameWithType: UnitTest1.MoveTo_UpdatesValidPosition()
+- uid: BOOSE_Test.UnitTest1.MoveTo_UpdatesValidPosition*
+  name: MoveTo_UpdatesValidPosition
+  href: boose/BOOSE_Test.UnitTest1.html#BOOSE_Test_UnitTest1_MoveTo_UpdatesValidPosition_
+  commentId: Overload:BOOSE_Test.UnitTest1.MoveTo_UpdatesValidPosition
+  isSpec: "True"
+  fullName: BOOSE_Test.UnitTest1.MoveTo_UpdatesValidPosition
+  nameWithType: UnitTest1.MoveTo_UpdatesValidPosition
+- uid: BOOSE_Test.UnitTest1.Multiline_OutOfCanvas_ThrowsException
+  name: Multiline_OutOfCanvas_ThrowsException()
+  href: boose/BOOSE_Test.UnitTest1.html#BOOSE_Test_UnitTest1_Multiline_OutOfCanvas_ThrowsException
+  commentId: M:BOOSE_Test.UnitTest1.Multiline_OutOfCanvas_ThrowsException
+  fullName: BOOSE_Test.UnitTest1.Multiline_OutOfCanvas_ThrowsException()
+  nameWithType: UnitTest1.Multiline_OutOfCanvas_ThrowsException()
+- uid: BOOSE_Test.UnitTest1.Multiline_OutOfCanvas_ThrowsException*
+  name: Multiline_OutOfCanvas_ThrowsException
+  href: boose/BOOSE_Test.UnitTest1.html#BOOSE_Test_UnitTest1_Multiline_OutOfCanvas_ThrowsException_
+  commentId: Overload:BOOSE_Test.UnitTest1.Multiline_OutOfCanvas_ThrowsException
+  isSpec: "True"
+  fullName: BOOSE_Test.UnitTest1.Multiline_OutOfCanvas_ThrowsException
+  nameWithType: UnitTest1.Multiline_OutOfCanvas_ThrowsException
+- uid: BOOSE_Test.UnitTest1.Multiline_UpdateValidPos
+  name: Multiline_UpdateValidPos()
+  href: boose/BOOSE_Test.UnitTest1.html#BOOSE_Test_UnitTest1_Multiline_UpdateValidPos
+  commentId: M:BOOSE_Test.UnitTest1.Multiline_UpdateValidPos
+  fullName: BOOSE_Test.UnitTest1.Multiline_UpdateValidPos()
+  nameWithType: UnitTest1.Multiline_UpdateValidPos()
+- uid: BOOSE_Test.UnitTest1.Multiline_UpdateValidPos*
+  name: Multiline_UpdateValidPos
+  href: boose/BOOSE_Test.UnitTest1.html#BOOSE_Test_UnitTest1_Multiline_UpdateValidPos_
+  commentId: Overload:BOOSE_Test.UnitTest1.Multiline_UpdateValidPos
+  isSpec: "True"
+  fullName: BOOSE_Test.UnitTest1.Multiline_UpdateValidPos
+  nameWithType: UnitTest1.Multiline_UpdateValidPos
+- uid: BOOSE_assignment
+  name: BOOSE_assignment
+  href: boose/BOOSE_assignment.html
+  commentId: N:BOOSE_assignment
+  fullName: BOOSE_assignment
+  nameWithType: BOOSE_assignment
+- uid: BOOSE_assignment.Canvas
+  name: Canvas
+  href: boose/BOOSE_assignment.Canvas.html
+  commentId: T:BOOSE_assignment.Canvas
+  fullName: BOOSE_assignment.Canvas
+  nameWithType: Canvas
+- uid: BOOSE_assignment.Canvas.#ctor
+  name: Canvas()
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas__ctor
+  commentId: M:BOOSE_assignment.Canvas.#ctor
+  name.vb: New()
+  fullName: BOOSE_assignment.Canvas.Canvas()
+  fullName.vb: BOOSE_assignment.Canvas.New()
+  nameWithType: Canvas.Canvas()
+  nameWithType.vb: Canvas.New()
+- uid: BOOSE_assignment.Canvas.#ctor*
+  name: Canvas
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas__ctor_
+  commentId: Overload:BOOSE_assignment.Canvas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE_assignment.Canvas.Canvas
+  fullName.vb: BOOSE_assignment.Canvas.New
+  nameWithType: Canvas.Canvas
+  nameWithType.vb: Canvas.New
+- uid: BOOSE_assignment.Canvas.Circle(System.Int32,System.Boolean)
+  name: Circle(int, bool)
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Circle_System_Int32_System_Boolean_
+  commentId: M:BOOSE_assignment.Canvas.Circle(System.Int32,System.Boolean)
+  name.vb: Circle(Integer, Boolean)
+  fullName: BOOSE_assignment.Canvas.Circle(int, bool)
+  fullName.vb: BOOSE_assignment.Canvas.Circle(Integer, Boolean)
+  nameWithType: Canvas.Circle(int, bool)
+  nameWithType.vb: Canvas.Circle(Integer, Boolean)
+- uid: BOOSE_assignment.Canvas.Circle*
+  name: Circle
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Circle_
+  commentId: Overload:BOOSE_assignment.Canvas.Circle
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.Circle
+  nameWithType: Canvas.Circle
+- uid: BOOSE_assignment.Canvas.Clear
+  name: Clear()
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Clear
+  commentId: M:BOOSE_assignment.Canvas.Clear
+  fullName: BOOSE_assignment.Canvas.Clear()
+  nameWithType: Canvas.Clear()
+- uid: BOOSE_assignment.Canvas.Clear*
+  name: Clear
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Clear_
+  commentId: Overload:BOOSE_assignment.Canvas.Clear
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.Clear
+  nameWithType: Canvas.Clear
+- uid: BOOSE_assignment.Canvas.DrawTo(System.Int32,System.Int32)
+  name: DrawTo(int, int)
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_DrawTo_System_Int32_System_Int32_
+  commentId: M:BOOSE_assignment.Canvas.DrawTo(System.Int32,System.Int32)
+  name.vb: DrawTo(Integer, Integer)
+  fullName: BOOSE_assignment.Canvas.DrawTo(int, int)
+  fullName.vb: BOOSE_assignment.Canvas.DrawTo(Integer, Integer)
+  nameWithType: Canvas.DrawTo(int, int)
+  nameWithType.vb: Canvas.DrawTo(Integer, Integer)
+- uid: BOOSE_assignment.Canvas.DrawTo*
+  name: DrawTo
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_DrawTo_
+  commentId: Overload:BOOSE_assignment.Canvas.DrawTo
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.DrawTo
+  nameWithType: Canvas.DrawTo
+- uid: BOOSE_assignment.Canvas.MoveTo(System.Int32,System.Int32)
+  name: MoveTo(int, int)
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_MoveTo_System_Int32_System_Int32_
+  commentId: M:BOOSE_assignment.Canvas.MoveTo(System.Int32,System.Int32)
+  name.vb: MoveTo(Integer, Integer)
+  fullName: BOOSE_assignment.Canvas.MoveTo(int, int)
+  fullName.vb: BOOSE_assignment.Canvas.MoveTo(Integer, Integer)
+  nameWithType: Canvas.MoveTo(int, int)
+  nameWithType.vb: Canvas.MoveTo(Integer, Integer)
+- uid: BOOSE_assignment.Canvas.MoveTo*
+  name: MoveTo
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_MoveTo_
+  commentId: Overload:BOOSE_assignment.Canvas.MoveTo
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.MoveTo
+  nameWithType: Canvas.MoveTo
+- uid: BOOSE_assignment.Canvas.PenColour
+  name: PenColour
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_PenColour
+  commentId: P:BOOSE_assignment.Canvas.PenColour
+  fullName: BOOSE_assignment.Canvas.PenColour
+  nameWithType: Canvas.PenColour
+- uid: BOOSE_assignment.Canvas.PenColour*
+  name: PenColour
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_PenColour_
+  commentId: Overload:BOOSE_assignment.Canvas.PenColour
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.PenColour
+  nameWithType: Canvas.PenColour
+- uid: BOOSE_assignment.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name: Rect(int, int, bool)
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Rect_System_Int32_System_Int32_System_Boolean_
+  commentId: M:BOOSE_assignment.Canvas.Rect(System.Int32,System.Int32,System.Boolean)
+  name.vb: Rect(Integer, Integer, Boolean)
+  fullName: BOOSE_assignment.Canvas.Rect(int, int, bool)
+  fullName.vb: BOOSE_assignment.Canvas.Rect(Integer, Integer, Boolean)
+  nameWithType: Canvas.Rect(int, int, bool)
+  nameWithType.vb: Canvas.Rect(Integer, Integer, Boolean)
+- uid: BOOSE_assignment.Canvas.Rect*
+  name: Rect
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Rect_
+  commentId: Overload:BOOSE_assignment.Canvas.Rect
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.Rect
+  nameWithType: Canvas.Rect
+- uid: BOOSE_assignment.Canvas.Reset
+  name: Reset()
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Reset
+  commentId: M:BOOSE_assignment.Canvas.Reset
+  fullName: BOOSE_assignment.Canvas.Reset()
+  nameWithType: Canvas.Reset()
+- uid: BOOSE_assignment.Canvas.Reset*
+  name: Reset
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Reset_
+  commentId: Overload:BOOSE_assignment.Canvas.Reset
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.Reset
+  nameWithType: Canvas.Reset
+- uid: BOOSE_assignment.Canvas.Set(System.Int32,System.Int32)
+  name: Set(int, int)
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Set_System_Int32_System_Int32_
+  commentId: M:BOOSE_assignment.Canvas.Set(System.Int32,System.Int32)
+  name.vb: Set(Integer, Integer)
+  fullName: BOOSE_assignment.Canvas.Set(int, int)
+  fullName.vb: BOOSE_assignment.Canvas.Set(Integer, Integer)
+  nameWithType: Canvas.Set(int, int)
+  nameWithType.vb: Canvas.Set(Integer, Integer)
+- uid: BOOSE_assignment.Canvas.Set*
+  name: Set
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Set_
+  commentId: Overload:BOOSE_assignment.Canvas.Set
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.Set
+  nameWithType: Canvas.Set
+- uid: BOOSE_assignment.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name: SetColour(int, int, int)
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_SetColour_System_Int32_System_Int32_System_Int32_
+  commentId: M:BOOSE_assignment.Canvas.SetColour(System.Int32,System.Int32,System.Int32)
+  name.vb: SetColour(Integer, Integer, Integer)
+  fullName: BOOSE_assignment.Canvas.SetColour(int, int, int)
+  fullName.vb: BOOSE_assignment.Canvas.SetColour(Integer, Integer, Integer)
+  nameWithType: Canvas.SetColour(int, int, int)
+  nameWithType.vb: Canvas.SetColour(Integer, Integer, Integer)
+- uid: BOOSE_assignment.Canvas.SetColour*
+  name: SetColour
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_SetColour_
+  commentId: Overload:BOOSE_assignment.Canvas.SetColour
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.SetColour
+  nameWithType: Canvas.SetColour
+- uid: BOOSE_assignment.Canvas.Tri(System.Int32,System.Int32)
+  name: Tri(int, int)
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Tri_System_Int32_System_Int32_
+  commentId: M:BOOSE_assignment.Canvas.Tri(System.Int32,System.Int32)
+  name.vb: Tri(Integer, Integer)
+  fullName: BOOSE_assignment.Canvas.Tri(int, int)
+  fullName.vb: BOOSE_assignment.Canvas.Tri(Integer, Integer)
+  nameWithType: Canvas.Tri(int, int)
+  nameWithType.vb: Canvas.Tri(Integer, Integer)
+- uid: BOOSE_assignment.Canvas.Tri*
+  name: Tri
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Tri_
+  commentId: Overload:BOOSE_assignment.Canvas.Tri
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.Tri
+  nameWithType: Canvas.Tri
+- uid: BOOSE_assignment.Canvas.WriteText(System.String)
+  name: WriteText(string)
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_WriteText_System_String_
+  commentId: M:BOOSE_assignment.Canvas.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: BOOSE_assignment.Canvas.WriteText(string)
+  fullName.vb: BOOSE_assignment.Canvas.WriteText(String)
+  nameWithType: Canvas.WriteText(string)
+  nameWithType.vb: Canvas.WriteText(String)
+- uid: BOOSE_assignment.Canvas.WriteText*
+  name: WriteText
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_WriteText_
+  commentId: Overload:BOOSE_assignment.Canvas.WriteText
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.WriteText
+  nameWithType: Canvas.WriteText
+- uid: BOOSE_assignment.Canvas.Xpos
+  name: Xpos
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Xpos
+  commentId: P:BOOSE_assignment.Canvas.Xpos
+  fullName: BOOSE_assignment.Canvas.Xpos
+  nameWithType: Canvas.Xpos
+- uid: BOOSE_assignment.Canvas.Xpos*
+  name: Xpos
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Xpos_
+  commentId: Overload:BOOSE_assignment.Canvas.Xpos
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.Xpos
+  nameWithType: Canvas.Xpos
+- uid: BOOSE_assignment.Canvas.Ypos
+  name: Ypos
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Ypos
+  commentId: P:BOOSE_assignment.Canvas.Ypos
+  fullName: BOOSE_assignment.Canvas.Ypos
+  nameWithType: Canvas.Ypos
+- uid: BOOSE_assignment.Canvas.Ypos*
+  name: Ypos
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_Ypos_
+  commentId: Overload:BOOSE_assignment.Canvas.Ypos
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.Ypos
+  nameWithType: Canvas.Ypos
+- uid: BOOSE_assignment.Canvas.getBitmap
+  name: getBitmap()
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_getBitmap
+  commentId: M:BOOSE_assignment.Canvas.getBitmap
+  fullName: BOOSE_assignment.Canvas.getBitmap()
+  nameWithType: Canvas.getBitmap()
+- uid: BOOSE_assignment.Canvas.getBitmap*
+  name: getBitmap
+  href: boose/BOOSE_assignment.Canvas.html#BOOSE_assignment_Canvas_getBitmap_
+  commentId: Overload:BOOSE_assignment.Canvas.getBitmap
+  isSpec: "True"
+  fullName: BOOSE_assignment.Canvas.getBitmap
+  nameWithType: Canvas.getBitmap
+- uid: BOOSE_assignment.Form1
+  name: Form1
+  href: boose/BOOSE_assignment.Form1.html
+  commentId: T:BOOSE_assignment.Form1
+  fullName: BOOSE_assignment.Form1
+  nameWithType: Form1
+- uid: BOOSE_assignment.Form1.#ctor
+  name: Form1()
+  href: boose/BOOSE_assignment.Form1.html#BOOSE_assignment_Form1__ctor
+  commentId: M:BOOSE_assignment.Form1.#ctor
+  name.vb: New()
+  fullName: BOOSE_assignment.Form1.Form1()
+  fullName.vb: BOOSE_assignment.Form1.New()
+  nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
+- uid: BOOSE_assignment.Form1.#ctor*
+  name: Form1
+  href: boose/BOOSE_assignment.Form1.html#BOOSE_assignment_Form1__ctor_
+  commentId: Overload:BOOSE_assignment.Form1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE_assignment.Form1.Form1
+  fullName.vb: BOOSE_assignment.Form1.New
+  nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
+- uid: BOOSE_assignment.Form1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: boose/BOOSE_assignment.Form1.html#BOOSE_assignment_Form1_Dispose_System_Boolean_
+  commentId: M:BOOSE_assignment.Form1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: BOOSE_assignment.Form1.Dispose(bool)
+  fullName.vb: BOOSE_assignment.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
+- uid: BOOSE_assignment.Form1.Dispose*
+  name: Dispose
+  href: boose/BOOSE_assignment.Form1.html#BOOSE_assignment_Form1_Dispose_
+  commentId: Overload:BOOSE_assignment.Form1.Dispose
+  isSpec: "True"
+  fullName: BOOSE_assignment.Form1.Dispose
+  nameWithType: Form1.Dispose
+- uid: BOOSE_assignment.Form1.WriteText(System.String)
+  name: WriteText(string)
+  href: boose/BOOSE_assignment.Form1.html#BOOSE_assignment_Form1_WriteText_System_String_
+  commentId: M:BOOSE_assignment.Form1.WriteText(System.String)
+  name.vb: WriteText(String)
+  fullName: BOOSE_assignment.Form1.WriteText(string)
+  fullName.vb: BOOSE_assignment.Form1.WriteText(String)
+  nameWithType: Form1.WriteText(string)
+  nameWithType.vb: Form1.WriteText(String)
+- uid: BOOSE_assignment.Form1.WriteText*
+  name: WriteText
+  href: boose/BOOSE_assignment.Form1.html#BOOSE_assignment_Form1_WriteText_
+  commentId: Overload:BOOSE_assignment.Form1.WriteText
+  isSpec: "True"
+  fullName: BOOSE_assignment.Form1.WriteText
+  nameWithType: Form1.WriteText
+- uid: BOOSE_assignment.MyParser
+  name: MyParser
+  href: boose/BOOSE_assignment.MyParser.html
+  commentId: T:BOOSE_assignment.MyParser
+  fullName: BOOSE_assignment.MyParser
+  nameWithType: MyParser
+- uid: BOOSE_assignment.MyParser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)
+  name: MyParser(CommandFactory, StoredProgram)
+  href: boose/BOOSE_assignment.MyParser.html#BOOSE_assignment_MyParser__ctor_BOOSE_CommandFactory_BOOSE_StoredProgram_
+  commentId: M:BOOSE_assignment.MyParser.#ctor(BOOSE.CommandFactory,BOOSE.StoredProgram)
+  name.vb: New(CommandFactory, StoredProgram)
+  fullName: BOOSE_assignment.MyParser.MyParser(BOOSE.CommandFactory, BOOSE.StoredProgram)
+  fullName.vb: BOOSE_assignment.MyParser.New(BOOSE.CommandFactory, BOOSE.StoredProgram)
+  nameWithType: MyParser.MyParser(CommandFactory, StoredProgram)
+  nameWithType.vb: MyParser.New(CommandFactory, StoredProgram)
+- uid: BOOSE_assignment.MyParser.#ctor*
+  name: MyParser
+  href: boose/BOOSE_assignment.MyParser.html#BOOSE_assignment_MyParser__ctor_
+  commentId: Overload:BOOSE_assignment.MyParser.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE_assignment.MyParser.MyParser
+  fullName.vb: BOOSE_assignment.MyParser.New
+  nameWithType: MyParser.MyParser
+  nameWithType.vb: MyParser.New
+- uid: BOOSE_assignment.MyParser.ParseCommand(System.String)
+  name: ParseCommand(string)
+  href: boose/BOOSE_assignment.MyParser.html#BOOSE_assignment_MyParser_ParseCommand_System_String_
+  commentId: M:BOOSE_assignment.MyParser.ParseCommand(System.String)
+  name.vb: ParseCommand(String)
+  fullName: BOOSE_assignment.MyParser.ParseCommand(string)
+  fullName.vb: BOOSE_assignment.MyParser.ParseCommand(String)
+  nameWithType: MyParser.ParseCommand(string)
+  nameWithType.vb: MyParser.ParseCommand(String)
+- uid: BOOSE_assignment.MyParser.ParseCommand*
+  name: ParseCommand
+  href: boose/BOOSE_assignment.MyParser.html#BOOSE_assignment_MyParser_ParseCommand_
+  commentId: Overload:BOOSE_assignment.MyParser.ParseCommand
+  isSpec: "True"
+  fullName: BOOSE_assignment.MyParser.ParseCommand
+  nameWithType: MyParser.ParseCommand
+- uid: BOOSE_assignment.MyParser.ParseProgram(System.String)
+  name: ParseProgram(string)
+  href: boose/BOOSE_assignment.MyParser.html#BOOSE_assignment_MyParser_ParseProgram_System_String_
+  commentId: M:BOOSE_assignment.MyParser.ParseProgram(System.String)
+  name.vb: ParseProgram(String)
+  fullName: BOOSE_assignment.MyParser.ParseProgram(string)
+  fullName.vb: BOOSE_assignment.MyParser.ParseProgram(String)
+  nameWithType: MyParser.ParseProgram(string)
+  nameWithType.vb: MyParser.ParseProgram(String)
+- uid: BOOSE_assignment.MyParser.ParseProgram*
+  name: ParseProgram
+  href: boose/BOOSE_assignment.MyParser.html#BOOSE_assignment_MyParser_ParseProgram_
+  commentId: Overload:BOOSE_assignment.MyParser.ParseProgram
+  isSpec: "True"
+  fullName: BOOSE_assignment.MyParser.ParseProgram
+  nameWithType: MyParser.ParseProgram
+- uid: BOOSE_assignment.MyTriangle
+  name: MyTriangle
+  href: boose/BOOSE_assignment.MyTriangle.html
+  commentId: T:BOOSE_assignment.MyTriangle
+  fullName: BOOSE_assignment.MyTriangle
+  nameWithType: MyTriangle
+- uid: BOOSE_assignment.MyTriangle.#ctor(BOOSE_assignment.Canvas)
+  name: MyTriangle(Canvas)
+  href: boose/BOOSE_assignment.MyTriangle.html#BOOSE_assignment_MyTriangle__ctor_BOOSE_assignment_Canvas_
+  commentId: M:BOOSE_assignment.MyTriangle.#ctor(BOOSE_assignment.Canvas)
+  name.vb: New(Canvas)
+  fullName: BOOSE_assignment.MyTriangle.MyTriangle(BOOSE_assignment.Canvas)
+  fullName.vb: BOOSE_assignment.MyTriangle.New(BOOSE_assignment.Canvas)
+  nameWithType: MyTriangle.MyTriangle(Canvas)
+  nameWithType.vb: MyTriangle.New(Canvas)
+- uid: BOOSE_assignment.MyTriangle.#ctor*
+  name: MyTriangle
+  href: boose/BOOSE_assignment.MyTriangle.html#BOOSE_assignment_MyTriangle__ctor_
+  commentId: Overload:BOOSE_assignment.MyTriangle.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE_assignment.MyTriangle.MyTriangle
+  fullName.vb: BOOSE_assignment.MyTriangle.New
+  nameWithType: MyTriangle.MyTriangle
+  nameWithType.vb: MyTriangle.New
+- uid: BOOSE_assignment.MyTriangle.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: boose/BOOSE_assignment.MyTriangle.html#BOOSE_assignment_MyTriangle_CheckParameters_System_String___
+  commentId: M:BOOSE_assignment.MyTriangle.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSE_assignment.MyTriangle.CheckParameters(string[])
+  fullName.vb: BOOSE_assignment.MyTriangle.CheckParameters(String())
+  nameWithType: MyTriangle.CheckParameters(string[])
+  nameWithType.vb: MyTriangle.CheckParameters(String())
+- uid: BOOSE_assignment.MyTriangle.CheckParameters*
+  name: CheckParameters
+  href: boose/BOOSE_assignment.MyTriangle.html#BOOSE_assignment_MyTriangle_CheckParameters_
+  commentId: Overload:BOOSE_assignment.MyTriangle.CheckParameters
+  isSpec: "True"
+  fullName: BOOSE_assignment.MyTriangle.CheckParameters
+  nameWithType: MyTriangle.CheckParameters
+- uid: BOOSE_assignment.MyTriangle.Execute
+  name: Execute()
+  href: boose/BOOSE_assignment.MyTriangle.html#BOOSE_assignment_MyTriangle_Execute
+  commentId: M:BOOSE_assignment.MyTriangle.Execute
+  fullName: BOOSE_assignment.MyTriangle.Execute()
+  nameWithType: MyTriangle.Execute()
+- uid: BOOSE_assignment.MyTriangle.Execute*
+  name: Execute
+  href: boose/BOOSE_assignment.MyTriangle.html#BOOSE_assignment_MyTriangle_Execute_
+  commentId: Overload:BOOSE_assignment.MyTriangle.Execute
+  isSpec: "True"
+  fullName: BOOSE_assignment.MyTriangle.Execute
+  nameWithType: MyTriangle.Execute
+- uid: BOOSE_assignment.MyTriangle.Set(BOOSE.StoredProgram,System.String)
+  name: Set(StoredProgram, string)
+  href: boose/BOOSE_assignment.MyTriangle.html#BOOSE_assignment_MyTriangle_Set_BOOSE_StoredProgram_System_String_
+  commentId: M:BOOSE_assignment.MyTriangle.Set(BOOSE.StoredProgram,System.String)
+  name.vb: Set(StoredProgram, String)
+  fullName: BOOSE_assignment.MyTriangle.Set(BOOSE.StoredProgram, string)
+  fullName.vb: BOOSE_assignment.MyTriangle.Set(BOOSE.StoredProgram, String)
+  nameWithType: MyTriangle.Set(StoredProgram, string)
+  nameWithType.vb: MyTriangle.Set(StoredProgram, String)
+- uid: BOOSE_assignment.MyTriangle.Set*
+  name: Set
+  href: boose/BOOSE_assignment.MyTriangle.html#BOOSE_assignment_MyTriangle_Set_
+  commentId: Overload:BOOSE_assignment.MyTriangle.Set
+  isSpec: "True"
+  fullName: BOOSE_assignment.MyTriangle.Set
+  nameWithType: MyTriangle.Set
+- uid: BOOSE_assignment.MyWrite
+  name: MyWrite
+  href: boose/BOOSE_assignment.MyWrite.html
+  commentId: T:BOOSE_assignment.MyWrite
+  fullName: BOOSE_assignment.MyWrite
+  nameWithType: MyWrite
+- uid: BOOSE_assignment.MyWrite.#ctor(BOOSE_assignment.Canvas)
+  name: MyWrite(Canvas)
+  href: boose/BOOSE_assignment.MyWrite.html#BOOSE_assignment_MyWrite__ctor_BOOSE_assignment_Canvas_
+  commentId: M:BOOSE_assignment.MyWrite.#ctor(BOOSE_assignment.Canvas)
+  name.vb: New(Canvas)
+  fullName: BOOSE_assignment.MyWrite.MyWrite(BOOSE_assignment.Canvas)
+  fullName.vb: BOOSE_assignment.MyWrite.New(BOOSE_assignment.Canvas)
+  nameWithType: MyWrite.MyWrite(Canvas)
+  nameWithType.vb: MyWrite.New(Canvas)
+- uid: BOOSE_assignment.MyWrite.#ctor*
+  name: MyWrite
+  href: boose/BOOSE_assignment.MyWrite.html#BOOSE_assignment_MyWrite__ctor_
+  commentId: Overload:BOOSE_assignment.MyWrite.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE_assignment.MyWrite.MyWrite
+  fullName.vb: BOOSE_assignment.MyWrite.New
+  nameWithType: MyWrite.MyWrite
+  nameWithType.vb: MyWrite.New
+- uid: BOOSE_assignment.MyWrite.CheckParameters(System.String[])
+  name: CheckParameters(string[])
+  href: boose/BOOSE_assignment.MyWrite.html#BOOSE_assignment_MyWrite_CheckParameters_System_String___
+  commentId: M:BOOSE_assignment.MyWrite.CheckParameters(System.String[])
+  name.vb: CheckParameters(String())
+  fullName: BOOSE_assignment.MyWrite.CheckParameters(string[])
+  fullName.vb: BOOSE_assignment.MyWrite.CheckParameters(String())
+  nameWithType: MyWrite.CheckParameters(string[])
+  nameWithType.vb: MyWrite.CheckParameters(String())
+- uid: BOOSE_assignment.MyWrite.CheckParameters*
+  name: CheckParameters
+  href: boose/BOOSE_assignment.MyWrite.html#BOOSE_assignment_MyWrite_CheckParameters_
+  commentId: Overload:BOOSE_assignment.MyWrite.CheckParameters
+  isSpec: "True"
+  fullName: BOOSE_assignment.MyWrite.CheckParameters
+  nameWithType: MyWrite.CheckParameters
+- uid: BOOSE_assignment.MyWrite.Execute
+  name: Execute()
+  href: boose/BOOSE_assignment.MyWrite.html#BOOSE_assignment_MyWrite_Execute
+  commentId: M:BOOSE_assignment.MyWrite.Execute
+  fullName: BOOSE_assignment.MyWrite.Execute()
+  nameWithType: MyWrite.Execute()
+- uid: BOOSE_assignment.MyWrite.Execute*
+  name: Execute
+  href: boose/BOOSE_assignment.MyWrite.html#BOOSE_assignment_MyWrite_Execute_
+  commentId: Overload:BOOSE_assignment.MyWrite.Execute
+  isSpec: "True"
+  fullName: BOOSE_assignment.MyWrite.Execute
+  nameWithType: MyWrite.Execute
+- uid: BOOSE_assignment.myCommandFactory
+  name: myCommandFactory
+  href: boose/BOOSE_assignment.myCommandFactory.html
+  commentId: T:BOOSE_assignment.myCommandFactory
+  fullName: BOOSE_assignment.myCommandFactory
+  nameWithType: myCommandFactory
+- uid: BOOSE_assignment.myCommandFactory.#ctor(BOOSE_assignment.Canvas)
+  name: myCommandFactory(Canvas)
+  href: boose/BOOSE_assignment.myCommandFactory.html#BOOSE_assignment_myCommandFactory__ctor_BOOSE_assignment_Canvas_
+  commentId: M:BOOSE_assignment.myCommandFactory.#ctor(BOOSE_assignment.Canvas)
+  name.vb: New(Canvas)
+  fullName: BOOSE_assignment.myCommandFactory.myCommandFactory(BOOSE_assignment.Canvas)
+  fullName.vb: BOOSE_assignment.myCommandFactory.New(BOOSE_assignment.Canvas)
+  nameWithType: myCommandFactory.myCommandFactory(Canvas)
+  nameWithType.vb: myCommandFactory.New(Canvas)
+- uid: BOOSE_assignment.myCommandFactory.#ctor*
+  name: myCommandFactory
+  href: boose/BOOSE_assignment.myCommandFactory.html#BOOSE_assignment_myCommandFactory__ctor_
+  commentId: Overload:BOOSE_assignment.myCommandFactory.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: BOOSE_assignment.myCommandFactory.myCommandFactory
+  fullName.vb: BOOSE_assignment.myCommandFactory.New
+  nameWithType: myCommandFactory.myCommandFactory
+  nameWithType.vb: myCommandFactory.New
+- uid: BOOSE_assignment.myCommandFactory.MakeCommand(System.String)
+  name: MakeCommand(string)
+  href: boose/BOOSE_assignment.myCommandFactory.html#BOOSE_assignment_myCommandFactory_MakeCommand_System_String_
+  commentId: M:BOOSE_assignment.myCommandFactory.MakeCommand(System.String)
+  name.vb: MakeCommand(String)
+  fullName: BOOSE_assignment.myCommandFactory.MakeCommand(string)
+  fullName.vb: BOOSE_assignment.myCommandFactory.MakeCommand(String)
+  nameWithType: myCommandFactory.MakeCommand(string)
+  nameWithType.vb: myCommandFactory.MakeCommand(String)
+- uid: BOOSE_assignment.myCommandFactory.MakeCommand*
+  name: MakeCommand
+  href: boose/BOOSE_assignment.myCommandFactory.html#BOOSE_assignment_myCommandFactory_MakeCommand_
+  commentId: Overload:BOOSE_assignment.myCommandFactory.MakeCommand
+  isSpec: "True"
+  fullName: BOOSE_assignment.myCommandFactory.MakeCommand
+  nameWithType: myCommandFactory.MakeCommand
