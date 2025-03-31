@@ -89,7 +89,7 @@
 
 
   <h1 id="BOOSE_assignment_MyWrite" data-uid="BOOSE_assignment.MyWrite" class="text-break">
-Class MyWrite  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class MyWrite  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class MyWrite  <a class="header-action link-secondary" title="View source" href=
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MyWrite : CommandOneParameter, ICommand</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyWrite : ICommand</code></pre>
   </div>
 
 
@@ -111,9 +111,6 @@ Class MyWrite  <a class="header-action link-secondary" title="View source" href=
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">Command</span></div>
-      <div><span class="xref">CanvasCommand</span></div>
-      <div><span class="xref">CommandOneParameter</span></div>
       <div><span class="xref">MyWrite</span></div>
     </dd>
   </dl>
@@ -129,63 +126,6 @@ Class MyWrite  <a class="header-action link-secondary" title="View source" href=
   <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
-    <div>
-      <span class="xref">CommandOneParameter.param1</span>
-    </div>
-    <div>
-      <span class="xref">CommandOneParameter.param1unprocessed</span>
-    </div>
-    <div>
-      <span class="xref">CanvasCommand.yPos</span>
-    </div>
-    <div>
-      <span class="xref">CanvasCommand.xPos</span>
-    </div>
-    <div>
-      <span class="xref">CanvasCommand.canvas</span>
-    </div>
-    <div>
-      <span class="xref">CanvasCommand.Canvas</span>
-    </div>
-    <div>
-      <span class="xref">Command.program</span>
-    </div>
-    <div>
-      <span class="xref">Command.parameterList</span>
-    </div>
-    <div>
-      <span class="xref">Command.parameters</span>
-    </div>
-    <div>
-      <span class="xref">Command.paramsint</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.Set(StoredProgram, string)</a>
-    </div>
-    <div>
-      <span class="xref">Command.Compile()</span>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">Command.ProcessParameters(string)</a>
-    </div>
-    <div>
-      <span class="xref">Command.ToString()</span>
-    </div>
-    <div>
-      <span class="xref">Command.Program</span>
-    </div>
-    <div>
-      <span class="xref">Command.Name</span>
-    </div>
-    <div>
-      <span class="xref">Command.ParameterList</span>
-    </div>
-    <div>
-      <span class="xref">Command.Parameters</span>
-    </div>
-    <div>
-      <span class="xref">Command.Paramsint</span>
-    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -204,6 +144,9 @@ Class MyWrite  <a class="header-action link-secondary" title="View source" href=
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
   </dd></dl>
 
 
@@ -217,22 +160,27 @@ Class MyWrite  <a class="header-action link-secondary" title="View source" href=
 
   <a id="BOOSE_assignment_MyWrite__ctor_" data-uid="BOOSE_assignment.MyWrite.#ctor*"></a>
 
-  <h3 id="BOOSE_assignment_MyWrite__ctor_BOOSE_assignment_Canvas_" data-uid="BOOSE_assignment.MyWrite.#ctor(BOOSE_assignment.Canvas)">
-  MyWrite(Canvas)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_assignment_MyWrite__ctor_BOOSE_assignment_Canvas_BOOSE_assignment_MyStoredProgram_" data-uid="BOOSE_assignment.MyWrite.#ctor(BOOSE_assignment.Canvas,BOOSE_assignment.MyStoredProgram)">
+  MyWrite(Canvas, MyStoredProgram)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Stores given canvas and stored program from command factory.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyWrite(Canvas canvas)</code></pre>
+    <pre><code class="lang-csharp hljs">public MyWrite(Canvas canvas, MyStoredProgram storedProgram)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>canvas</code> <a class="xref" href="BOOSE_assignment.Canvas.html">Canvas</a></dt>
-    <dd></dd>
+    <dd><p>Canvas object reference.</p>
+</dd>
+    <dt><code>storedProgram</code> <a class="xref" href="BOOSE_assignment.MyStoredProgram.html">MyStoredProgram</a></dt>
+    <dd><p>MyStoredProgram object reference.</p>
+</dd>
   </dl>
 
 
@@ -254,21 +202,55 @@ Class MyWrite  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSE_assignment_MyWrite_CheckParameters_System_String___" data-uid="BOOSE_assignment.MyWrite.CheckParameters(System.String[])">
   CheckParameters(string[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Checks if passed parameter string array value is null or empty.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void CheckParameters(string[] parameters)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CheckParameters(string[] parameters)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>The message that will be displayed on screen.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><span class="xref">CommandException</span></dt>
     <dd></dd>
   </dl>
+
+
+
+  <a id="BOOSE_assignment_MyWrite_Compile_" data-uid="BOOSE_assignment.MyWrite.Compile*"></a>
+
+  <h3 id="BOOSE_assignment_MyWrite_Compile" data-uid="BOOSE_assignment.MyWrite.Compile">
+  Compile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks message is not null or empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Compile()</code></pre>
+  </div>
+
 
 
 
@@ -285,16 +267,52 @@ Class MyWrite  <a class="header-action link-secondary" title="View source" href=
 
   <h3 id="BOOSE_assignment_MyWrite_Execute" data-uid="BOOSE_assignment.MyWrite.Execute">
   Execute()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Evaluate expression of the message, call the write method and pass message into it, in current pen position.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void Execute()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
   </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_assignment_MyWrite_Set_" data-uid="BOOSE_assignment.MyWrite.Set*"></a>
+
+  <h3 id="BOOSE_assignment_MyWrite_Set_BOOSE_StoredProgram_System_String_" data-uid="BOOSE_assignment.MyWrite.Set(BOOSE.StoredProgram,System.String)">
+  Set(StoredProgram, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Stores the string parameter into message string variable.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(StoredProgram Program, string Params)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Program</code> <span class="xref">StoredProgram</span></dt>
+    <dd></dd>
+    <dt><code>Params</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The string message provided by the user to be evaluated and displayed.</p>
+</dd>
+  </dl>
 
 
 
@@ -311,7 +329,7 @@ Class MyWrite  <a class="header-action link-secondary" title="View source" href=
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L6" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyWrite.cs/#L7" class="edit-link">Edit this page</a>
         </div>
 
 
