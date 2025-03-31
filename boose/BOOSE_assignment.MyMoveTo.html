@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class MyParser | boosedocs </title>
+      <title>Class MyMoveTo | boosedocs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class MyParser | boosedocs ">
+      <meta name="title" content="Class MyMoveTo | boosedocs ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/new/main/apiSpec/new?filename=BOOSE_assignment_MyParser.md&amp;value=---%0Auid%3A%20BOOSE_assignment.MyParser%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/new/main/apiSpec/new?filename=BOOSE_assignment_MyMoveTo.md&amp;value=---%0Auid%3A%20BOOSE_assignment.MyMoveTo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE_assignment.MyParser">
+        <article data-uid="BOOSE_assignment.MyMoveTo">
 
 
 
-  <h1 id="BOOSE_assignment_MyParser" data-uid="BOOSE_assignment.MyParser" class="text-break">
-Class MyParser  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyParser.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_assignment_MyMoveTo" data-uid="BOOSE_assignment.MyMoveTo" class="text-break">
+Class MyMoveTo  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyMoveTo.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class MyParser  <a class="header-action link-secondary" title="View source" href
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MyParser : IParser</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyMoveTo : ICommand</code></pre>
   </div>
 
 
@@ -111,14 +111,14 @@ Class MyParser  <a class="header-action link-secondary" title="View source" href
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">MyParser</span></div>
+      <div><span class="xref">MyMoveTo</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">IParser</span></div>
+      <div><span class="xref">ICommand</span></div>
     </dd>
   </dl>
 
@@ -158,25 +158,25 @@ Class MyParser  <a class="header-action link-secondary" title="View source" href
 </h2>
 
 
-  <a id="BOOSE_assignment_MyParser__ctor_" data-uid="BOOSE_assignment.MyParser.#ctor*"></a>
+  <a id="BOOSE_assignment_MyMoveTo__ctor_" data-uid="BOOSE_assignment.MyMoveTo.#ctor*"></a>
 
-  <h3 id="BOOSE_assignment_MyParser__ctor_BOOSE_assignment_myCommandFactory_BOOSE_assignment_MyStoredProgram_" data-uid="BOOSE_assignment.MyParser.#ctor(BOOSE_assignment.myCommandFactory,BOOSE_assignment.MyStoredProgram)">
-  MyParser(myCommandFactory, MyStoredProgram)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyParser.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_assignment_MyMoveTo__ctor_BOOSE_assignment_Canvas_BOOSE_assignment_MyStoredProgram_" data-uid="BOOSE_assignment.MyMoveTo.#ctor(BOOSE_assignment.Canvas,BOOSE_assignment.MyStoredProgram)">
+  MyMoveTo(Canvas, MyStoredProgram)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyMoveTo.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Stores given command factory and stored program.</p>
+  <div class="markdown level1 summary"><p>Stores given canvas and stored program from command factory.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyParser(myCommandFactory factory, MyStoredProgram program)</code></pre>
+    <pre><code class="lang-csharp hljs">public MyMoveTo(Canvas canvas, MyStoredProgram program)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>factory</code> <a class="xref" href="BOOSE_assignment.myCommandFactory.html">myCommandFactory</a></dt>
-    <dd><p>myCommandFactory object reference.</p>
+    <dt><code>canvas</code> <a class="xref" href="BOOSE_assignment.Canvas.html">Canvas</a></dt>
+    <dd><p>Canvas object reference.</p>
 </dd>
     <dt><code>program</code> <a class="xref" href="BOOSE_assignment.MyStoredProgram.html">MyStoredProgram</a></dt>
     <dd><p>MyStoredProgram object reference.</p>
@@ -198,71 +198,25 @@ Class MyParser  <a class="header-action link-secondary" title="View source" href
 </h2>
 
 
-  <a id="BOOSE_assignment_MyParser_ParseCommand_" data-uid="BOOSE_assignment.MyParser.ParseCommand*"></a>
+  <a id="BOOSE_assignment_MyMoveTo_CheckParameters_" data-uid="BOOSE_assignment.MyMoveTo.CheckParameters*"></a>
 
-  <h3 id="BOOSE_assignment_MyParser_ParseCommand_System_String_" data-uid="BOOSE_assignment.MyParser.ParseCommand(System.String)">
-  ParseCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyParser.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_assignment_MyMoveTo_CheckParameters_System_String___" data-uid="BOOSE_assignment.MyMoveTo.CheckParameters(System.String[])">
+  CheckParameters(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyMoveTo.cs/#L29"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Parses a command line string, creating relevant command object, setting its parameters, compiles adding object to stored program.</p>
+  <div class="markdown level1 summary"><p>Checks, evaluates if arguments are values and sets x and y coordinates accordingly.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommand ParseCommand(string commandLine)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CheckParameters(string[] parameters)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>commandLine</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Raw string input of a single line from the whole script.</p>
-</dd>
-  </dl>
-
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">ICommand</span></dt>
-    <dd><p>The compiled ICommand object.</p>
-</dd>
-  </dl>
-
-
-
-
-
-
-
-
-  <h4 class="section">Exceptions</h4>
-  <dl class="parameters">
-    <dt><span class="xref">ParserException</span></dt>
-    <dd><p>Thrown if arguments are missing.</p>
-</dd>
-  </dl>
-
-
-
-  <a id="BOOSE_assignment_MyParser_ParseProgram_" data-uid="BOOSE_assignment.MyParser.ParseProgram*"></a>
-
-  <h3 id="BOOSE_assignment_MyParser_ParseProgram_System_String_" data-uid="BOOSE_assignment.MyParser.ParseProgram(System.String)">
-  ParseProgram(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyParser.cs/#L102"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>Splits, trims script and parses line by line, command by command.
-It ignores any lines starting with *.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ParseProgram(string program)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>program</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The passed multiline string from user input.</p>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Hold the expressions/ direct argument values to be set.</p>
 </dd>
   </dl>
 
@@ -276,13 +230,99 @@ It ignores any lines starting with *.</p>
 
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
-    <dt><span class="xref">RestrictionException</span></dt>
-    <dd><p>Thrown if maxLinesLocked is voluntarily set to true, and amount of commands reaches beyond maxLines.</p>
-</dd>
-    <dt><span class="xref">ParserException</span></dt>
-    <dd><p>Thrown if a line fails to parse.</p>
+    <dt><span class="xref">CommandException</span></dt>
+    <dd><p>Thrown if coordinates are not positive/ integer values.</p>
 </dd>
   </dl>
+
+
+
+  <a id="BOOSE_assignment_MyMoveTo_Compile_" data-uid="BOOSE_assignment.MyMoveTo.Compile*"></a>
+
+  <h3 id="BOOSE_assignment_MyMoveTo_Compile" data-uid="BOOSE_assignment.MyMoveTo.Compile">
+  Compile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyMoveTo.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks and sets x and y values at compilation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Compile()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_assignment_MyMoveTo_Execute_" data-uid="BOOSE_assignment.MyMoveTo.Execute*"></a>
+
+  <h3 id="BOOSE_assignment_MyMoveTo_Execute" data-uid="BOOSE_assignment.MyMoveTo.Execute">
+  Execute()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyMoveTo.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Updating x and y values if need be, and calling moveto method from canvas.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_assignment_MyMoveTo_Set_" data-uid="BOOSE_assignment.MyMoveTo.Set*"></a>
+
+  <h3 id="BOOSE_assignment_MyMoveTo_Set_BOOSE_StoredProgram_System_String_" data-uid="BOOSE_assignment.MyMoveTo.Set(BOOSE.StoredProgram,System.String)">
+  Set(StoredProgram, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyMoveTo.cs/#L69"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Splits given string by comma, and stores the split string into arguments string array.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(StoredProgram Program, string Params)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Program</code> <span class="xref">StoredProgram</span></dt>
+    <dd></dd>
+    <dt><code>Params</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Passed string from parser, which is split and stored.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -290,7 +330,7 @@ It ignores any lines starting with *.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyParser.cs/#L12" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyMoveTo.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
