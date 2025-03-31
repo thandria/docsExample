@@ -164,7 +164,7 @@ and set ups the drawable bitmap/ canvas.</p>
 
   <h3 id="BOOSE_assignment_Canvas__ctor" data-uid="BOOSE_assignment.Canvas.#ctor">
   Canvas()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L39"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates new <a class="xref" href="BOOSE_assignment.Canvas.html">Canvas</a> object with default settings.
@@ -196,7 +196,7 @@ Setting up up the resolution/ size of the canvas starting with a black pen.</p>
 
   <h3 id="BOOSE_assignment_Canvas_PenColour" data-uid="BOOSE_assignment.Canvas.PenColour">
   PenColour
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L78"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>There is a getter that gets the current pen colour.
@@ -225,11 +225,73 @@ There also is a setter that helps change the current pen colour,</p>
 
 
 
+  <a id="BOOSE_assignment_Canvas_PenProps_" data-uid="BOOSE_assignment.Canvas.PenProps*"></a>
+
+  <h3 id="BOOSE_assignment_Canvas_PenProps" data-uid="BOOSE_assignment.Canvas.PenProps">
+  PenProps
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L99"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object PenProps { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="BOOSE_assignment_Canvas_PenSize_" data-uid="BOOSE_assignment.Canvas.PenSize*"></a>
+
+  <h3 id="BOOSE_assignment_Canvas_PenSize" data-uid="BOOSE_assignment.Canvas.PenSize">
+  PenSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PenSize { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="BOOSE_assignment_Canvas_Xpos_" data-uid="BOOSE_assignment.Canvas.Xpos*"></a>
 
   <h3 id="BOOSE_assignment_Canvas_Xpos" data-uid="BOOSE_assignment.Canvas.Xpos">
   Xpos
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L49"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L51"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>A setter and getter for the X coordinate that are called by different methods related to moving the pen and drawing on the canvas.</p>
@@ -261,7 +323,7 @@ There also is a setter that helps change the current pen colour,</p>
 
   <h3 id="BOOSE_assignment_Canvas_Ypos" data-uid="BOOSE_assignment.Canvas.Ypos">
   Ypos
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L63"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L65"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>A setter and getter for the Y coordinate that are called by different methods related to moving the pen and drawing on the canvas.</p>
@@ -295,9 +357,42 @@ There also is a setter that helps change the current pen colour,</p>
 
   <a id="BOOSE_assignment_Canvas_Circle_" data-uid="BOOSE_assignment.Canvas.Circle*"></a>
 
+  <h3 id="BOOSE_assignment_Canvas_Circle_System_Double_System_Boolean_" data-uid="BOOSE_assignment.Canvas.Circle(System.Double,System.Boolean)">
+  Circle(double, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Circle(double radius, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>radius</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_assignment_Canvas_Circle_" data-uid="BOOSE_assignment.Canvas.Circle*"></a>
+
   <h3 id="BOOSE_assignment_Canvas_Circle_System_Int32_System_Boolean_" data-uid="BOOSE_assignment.Canvas.Circle(System.Int32,System.Boolean)">
   Circle(int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L93"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Draws a circle with the given radius at the current pen position, if radius is negative it handles the exception.</p>
@@ -337,7 +432,7 @@ There also is a setter that helps change the current pen colour,</p>
 
   <h3 id="BOOSE_assignment_Canvas_Clear" data-uid="BOOSE_assignment.Canvas.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L109"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L141"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Clears the canvas by filling it with its background color which is currently set to ControlDark (light grey) in its properties.</p>
@@ -364,7 +459,7 @@ There also is a setter that helps change the current pen colour,</p>
 
   <h3 id="BOOSE_assignment_Canvas_DrawTo_System_Int32_System_Int32_" data-uid="BOOSE_assignment.Canvas.DrawTo(System.Int32,System.Int32)">
   DrawTo(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L121"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L153"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>It draws a line from the current pen position to the X (mvX), (mvY) coordinates, that the user wants to draw the line to.
@@ -405,7 +500,7 @@ When the line is drawn, it updates the current pen position to the one it has mo
 
   <h3 id="BOOSE_assignment_Canvas_MoveTo_System_Int32_System_Int32_" data-uid="BOOSE_assignment.Canvas.MoveTo(System.Int32,System.Int32)">
   MoveTo(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L191"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Move the pen to the given coordinates position on the canvas but without drawing on the canvas.</p>
@@ -445,9 +540,44 @@ When the line is drawn, it updates the current pen position to the one it has mo
 
   <a id="BOOSE_assignment_Canvas_Rect_" data-uid="BOOSE_assignment.Canvas.Rect*"></a>
 
+  <h3 id="BOOSE_assignment_Canvas_Rect_System_Double_System_Double_System_Boolean_" data-uid="BOOSE_assignment.Canvas.Rect(System.Double,System.Double,System.Boolean)">
+  Rect(double, double, bool)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Rect(double width, double height, bool filled)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>filled</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_assignment_Canvas_Rect_" data-uid="BOOSE_assignment.Canvas.Rect*"></a>
+
   <h3 id="BOOSE_assignment_Canvas_Rect_System_Int32_System_Int32_System_Boolean_" data-uid="BOOSE_assignment.Canvas.Rect(System.Int32,System.Int32,System.Boolean)">
   Rect(int, int, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L177"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Draws a rectangle at the current pen position with the width and height values that it is given.</p>
@@ -486,10 +616,11 @@ When the line is drawn, it updates the current pen position to the one it has mo
 
   <h3 id="BOOSE_assignment_Canvas_Reset" data-uid="BOOSE_assignment.Canvas.Reset">
   Reset()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L237"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Resets the current pen position to origin.</p>
+  <div class="markdown level1 summary"><p>Resets the current pen position to origin.
+Resets pen object  including colour and weight</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -513,7 +644,7 @@ When the line is drawn, it updates the current pen position to the one it has mo
 
   <h3 id="BOOSE_assignment_Canvas_Set_System_Int32_System_Int32_" data-uid="BOOSE_assignment.Canvas.Set(System.Int32,System.Int32)">
   Set(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L203"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L251"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Sets canvas size to the provided width and height.
@@ -550,7 +681,7 @@ Resets the pen position to origin, and and sets up the Graphics object to allow 
 
   <h3 id="BOOSE_assignment_Canvas_SetColour_System_Int32_System_Int32_System_Int32_" data-uid="BOOSE_assignment.Canvas.SetColour(System.Int32,System.Int32,System.Int32)">
   SetColour(int, int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L221"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L269"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Set the pen colour with the given RGB values. Check the RGB values are within possible range/ valid and fully visible.</p>
@@ -592,7 +723,7 @@ Resets the pen position to origin, and and sets up the Graphics object to allow 
 
   <h3 id="BOOSE_assignment_Canvas_Tri_System_Int32_System_Int32_" data-uid="BOOSE_assignment.Canvas.Tri(System.Int32,System.Int32)">
   Tri(int, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L241"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L289"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Draws a triangle on the canvas based on the provided width and height values. It is drawn with the current pen position being its top point.</p>
@@ -628,7 +759,7 @@ Resets the pen position to origin, and and sets up the Graphics object to allow 
 
   <h3 id="BOOSE_assignment_Canvas_WriteText_System_String_" data-uid="BOOSE_assignment.Canvas.WriteText(System.String)">
   WriteText(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L252"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L303"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -659,7 +790,7 @@ Resets the pen position to origin, and and sets up the Graphics object to allow 
 
   <h3 id="BOOSE_assignment_Canvas_getBitmap" data-uid="BOOSE_assignment.Canvas.getBitmap">
   getBitmap()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/Canvas.cs/#L180"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Get the current state of the canvas.</p>

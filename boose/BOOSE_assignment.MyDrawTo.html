@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class myCommandFactory | boosedocs </title>
+      <title>Class MyDrawTo | boosedocs </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class myCommandFactory | boosedocs ">
+      <meta name="title" content="Class MyDrawTo | boosedocs ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/new/main/apiSpec/new?filename=BOOSE_assignment_myCommandFactory.md&amp;value=---%0Auid%3A%20BOOSE_assignment.myCommandFactory%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/new/main/apiSpec/new?filename=BOOSE_assignment_MyDrawTo.md&amp;value=---%0Auid%3A%20BOOSE_assignment.MyDrawTo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="BOOSE_assignment.myCommandFactory">
+        <article data-uid="BOOSE_assignment.MyDrawTo">
 
 
 
-  <h1 id="BOOSE_assignment_myCommandFactory" data-uid="BOOSE_assignment.myCommandFactory" class="text-break">
-Class myCommandFactory  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/myCommandFactory.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <h1 id="BOOSE_assignment_MyDrawTo" data-uid="BOOSE_assignment.MyDrawTo" class="text-break">
+Class MyDrawTo  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyDrawTo.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -101,7 +101,7 @@ Class myCommandFactory  <a class="header-action link-secondary" title="View sour
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class myCommandFactory : ICommandFactory</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyDrawTo : ICommand</code></pre>
   </div>
 
 
@@ -111,14 +111,14 @@ Class myCommandFactory  <a class="header-action link-secondary" title="View sour
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">myCommandFactory</span></div>
+      <div><span class="xref">MyDrawTo</span></div>
     </dd>
   </dl>
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><span class="xref">ICommandFactory</span></div>
+      <div><span class="xref">ICommand</span></div>
     </dd>
   </dl>
 
@@ -158,19 +158,19 @@ Class myCommandFactory  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
-  <a id="BOOSE_assignment_myCommandFactory__ctor_" data-uid="BOOSE_assignment.myCommandFactory.#ctor*"></a>
+  <a id="BOOSE_assignment_MyDrawTo__ctor_" data-uid="BOOSE_assignment.MyDrawTo.#ctor*"></a>
 
-  <h3 id="BOOSE_assignment_myCommandFactory__ctor_BOOSE_assignment_Canvas_BOOSE_assignment_MyStoredProgram_BOOSE_assignment_MyEvaluation_" data-uid="BOOSE_assignment.myCommandFactory.#ctor(BOOSE_assignment.Canvas,BOOSE_assignment.MyStoredProgram,BOOSE_assignment.MyEvaluation)">
-  myCommandFactory(Canvas, MyStoredProgram, MyEvaluation)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/myCommandFactory.cs/#L23"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_assignment_MyDrawTo__ctor_BOOSE_assignment_Canvas_BOOSE_assignment_MyStoredProgram_" data-uid="BOOSE_assignment.MyDrawTo.#ctor(BOOSE_assignment.Canvas,BOOSE_assignment.MyStoredProgram)">
+  MyDrawTo(Canvas, MyStoredProgram)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyDrawTo.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Stores given canvas, storedProgram and evaluation objects from Form.</p>
+  <div class="markdown level1 summary"><p>Stores given canvas and storedProgram from command factory.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public myCommandFactory(Canvas canvas, MyStoredProgram storedProg, MyEvaluation Eval)</code></pre>
+    <pre><code class="lang-csharp hljs">public MyDrawTo(Canvas canvas, MyStoredProgram program)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -178,11 +178,8 @@ Class myCommandFactory  <a class="header-action link-secondary" title="View sour
     <dt><code>canvas</code> <a class="xref" href="BOOSE_assignment.Canvas.html">Canvas</a></dt>
     <dd><p>Canvas object reference.</p>
 </dd>
-    <dt><code>storedProg</code> <a class="xref" href="BOOSE_assignment.MyStoredProgram.html">MyStoredProgram</a></dt>
-    <dd><p>StoredProgram object reference.</p>
-</dd>
-    <dt><code>Eval</code> <a class="xref" href="BOOSE_assignment.MyEvaluation.html">MyEvaluation</a></dt>
-    <dd><p>Evaluation object reference.</p>
+    <dt><code>program</code> <a class="xref" href="BOOSE_assignment.MyStoredProgram.html">MyStoredProgram</a></dt>
+    <dd><p>MyStoredProgram object reference.</p>
 </dd>
   </dl>
 
@@ -201,34 +198,29 @@ Class myCommandFactory  <a class="header-action link-secondary" title="View sour
 </h2>
 
 
-  <a id="BOOSE_assignment_myCommandFactory_MakeCommand_" data-uid="BOOSE_assignment.myCommandFactory.MakeCommand*"></a>
+  <a id="BOOSE_assignment_MyDrawTo_CheckParameters_" data-uid="BOOSE_assignment.MyDrawTo.CheckParameters*"></a>
 
-  <h3 id="BOOSE_assignment_myCommandFactory_MakeCommand_System_String_" data-uid="BOOSE_assignment.myCommandFactory.MakeCommand(System.String)">
-  MakeCommand(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/myCommandFactory.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <h3 id="BOOSE_assignment_MyDrawTo_CheckParameters_System_String___" data-uid="BOOSE_assignment.MyDrawTo.CheckParameters(System.String[])">
+  CheckParameters(string[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyDrawTo.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Checks input type, creates and returns the corresponding object.</p>
+  <div class="markdown level1 summary"><p>Checks and parses arguments, evaluating them correctly if they are variables.
+Sets arguments to x and y coordinates accordingly for pen drawing movement.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ICommand MakeCommand(string commandType)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CheckParameters(string[] parameters)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>commandType</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Input type that is checked.</p>
+    <dt><code>parameters</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
+    <dd><p>Should contain two positive integer values for x and y.</p>
 </dd>
   </dl>
 
-  <h4 class="section">Returns</h4>
-  <dl class="parameters">
-    <dt><span class="xref">ICommand</span></dt>
-    <dd><p>Equivalent object.</p>
-</dd>
-  </dl>
 
 
 
@@ -240,9 +232,97 @@ Class myCommandFactory  <a class="header-action link-secondary" title="View sour
   <h4 class="section">Exceptions</h4>
   <dl class="parameters">
     <dt><span class="xref">CommandException</span></dt>
-    <dd><p>When input does not match any input case or variable/ method names.</p>
+    <dd><p>If given values are not integers throw exception.</p>
 </dd>
   </dl>
+
+
+
+  <a id="BOOSE_assignment_MyDrawTo_Compile_" data-uid="BOOSE_assignment.MyDrawTo.Compile*"></a>
+
+  <h3 id="BOOSE_assignment_MyDrawTo_Compile" data-uid="BOOSE_assignment.MyDrawTo.Compile">
+  Compile()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyDrawTo.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Checks and sets arguments once before execution phase.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Compile()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_assignment_MyDrawTo_Execute_" data-uid="BOOSE_assignment.MyDrawTo.Execute*"></a>
+
+  <h3 id="BOOSE_assignment_MyDrawTo_Execute" data-uid="BOOSE_assignment.MyDrawTo.Execute">
+  Execute()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyDrawTo.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Rechecks and sets arguments for any possible variable value updates within the given expression.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Execute()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="BOOSE_assignment_MyDrawTo_Set_" data-uid="BOOSE_assignment.MyDrawTo.Set*"></a>
+
+  <h3 id="BOOSE_assignment_MyDrawTo_Set_BOOSE_StoredProgram_System_String_" data-uid="BOOSE_assignment.MyDrawTo.Set(BOOSE.StoredProgram,System.String)">
+  Set(StoredProgram, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyDrawTo.cs/#L73"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Splits and stored the input arguments for the drawto command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set(StoredProgram Program, string Params)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>Program</code> <span class="xref">StoredProgram</span></dt>
+    <dd></dd>
+    <dt><code>Params</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -250,7 +330,7 @@ Class myCommandFactory  <a class="header-action link-secondary" title="View sour
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/myCommandFactory.cs/#L9" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ASE-Classroom/ase-boose-assignment-thandria/blob/main/BOOSE-assignment/MyDrawTo.cs/#L10" class="edit-link">Edit this page</a>
         </div>
 
 
